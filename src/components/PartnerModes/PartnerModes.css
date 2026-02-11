@@ -1,0 +1,15 @@
+.feature-list {
+    list-style: none;
+}
+
+.feature-item {
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.feature-item:last-child {
+    border-bottom: none;
+}
